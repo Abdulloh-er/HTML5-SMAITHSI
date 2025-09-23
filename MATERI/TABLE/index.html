@@ -12,6 +12,16 @@
             background-color: aliceblue;
             width: 70%;
         }
+        #tableatas {
+            border-collapse: collapse;
+        }
+        #tableatas td {
+            padding: 5px;
+        }
+        #tableatas .bg {
+            background-color: black;
+            color: aliceblue;
+        }
     </style>
 </head>
 <body>
@@ -22,11 +32,11 @@
     <h3>
         TABLE PEMULA
     </h3>
-    <table border="1">
-        <tr>
-            <td>NO</td>
-            <td>NAMA</td>
-            <td>KERJAAN</td>
+    <table border="1" id="tableatas">
+        <tr class="bg">
+            <th>NO</th>
+            <th>NAMA</th>
+            <th>PEKERJAAN</th>
         </tr>
         <tr>
             <td>1.</td>
@@ -46,8 +56,8 @@
     </table>
     <hr>
     <h3>TABLE STANDARD</h3>
-    <table border="1">
-        <thead>
+    <table border="1" id="tableatas">
+        <thead class="bg">
             <th>NO</th>
             <th>NAMA JAJANAN</th>
             <th>HARGA</th>
@@ -73,7 +83,7 @@
             <!-- <td>TAHU GOLEK</td> -->
             <td>5.000,-</td>
             </tr>
-            <tr>
+            <tr class="bg">
             <td colspan="2"><b>TOTAL</b></td>
             <td><b>17.500,-</b></td>
             </tr>
