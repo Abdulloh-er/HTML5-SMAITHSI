@@ -1,0 +1,168 @@
+body {
+    font-family: sans-serif;
+    margin: 0cm;
+    background-color: #f2f8f8;
+}
+
+div img {
+    width: 80px;
+    margin-top: 25px;
+    margin-left: 15.5cm;
+}
+div h1 {
+    color: rgb(37, 92, 174);
+    padding-top: 0.7cm;
+    margin-top: 0cm;
+    text-align: center;
+}
+.deskrip1 {
+    text-align: center;
+    font-size: small;
+    padding-bottom: 1cm;
+}
+hr {
+    margin-left: 3cm;
+    margin-right: 3cm;
+}
+.hr2 {
+    margin-bottom: 0.5cm;
+    margin-left: 3cm;
+    margin-right: 3cm;
+}
+.garis {
+    color: rgb(154, 147, 56);
+    font-size: larger;
+}
+#pengantar {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 3px 7px #8b8686;
+    margin-left: 3cm;
+    margin-right: 3cm;
+    margin-top: 1cm;
+    border-radius: 20px;
+}
+#pengantar h3 {
+    padding: 0.5cm;
+    color: rgb(37, 92, 174);
+}
+#pengantar p {
+    text-align: left;
+    margin-left: 30px;
+}
+#avatar {
+    background-color: #fff;
+    box-shadow: 0 3px 7px #8b8686;
+    margin-top: 1cm;
+    margin-left: 3cm;
+    margin-right: 3cm;
+    border-radius: 20px;
+    margin-bottom: 1cm;
+}
+#avatar h3 {
+    padding-top: 0.5cm;
+    padding-left: 0.5cm;
+    color: rgb(37, 92, 174);
+}
+.deskrip {
+    margin-left: 25px;
+    padding-bottom: 25px;
+}
+.gambar {
+    width: 250px;
+    margin-left: 25px ;
+    margin-bottom:  0.5cm; 
+}
+.bravepibk {
+    color: #bf4cb3;
+}
+.grennhero {
+    color: #3ab436;
+}
+.gariske2 {
+    font-size: large;
+    color: rgb(154, 147, 56);
+}
+.gantihalaman2 {
+    color: #000;
+    text-decoration: none;
+    cursor: progress;
+}
+#gantihalaman2 {
+    text-align: center;
+    margin-bottom: 0.5cm;
+}
+
+/* BIODATA */
+
+.fotodirisendiri {
+    width: 200px;
+    margin-left: 25px;
+    border-radius: 1cm;
+}
+.deskripbio {
+    padding: 25px;
+}
+#pengantar2 {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 3px 7px #8b8686;
+    margin-left: 3cm;
+    margin-right: 3cm;
+    margin-top: 1cm;
+    border-radius: 20px;
+}
+#pengantar2 h3 {
+    padding: 0.5cm;
+    color: rgb(37, 92, 174);
+}
+#pengantar2 ul li {
+    text-align: left;
+    padding-bottom: 15px;
+}
+#pengantar2 ul li a {
+    text-decoration: none;
+    color: #000;
+    cursor: progress;
+}
+#cita2 {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 3px 7px #8b8686;
+    margin-left: 3cm;
+    margin-right: 3cm;
+    margin-top: 1cm;
+    border-radius: 20px;
+}
+#cita2 h3 {
+    padding: 0.5cm;
+    color: rgb(37, 92, 174);
+}
+#cita2 p {
+    text-align: left;
+    padding-left: 25px;
+    padding-bottom: 25px;
+
+}
+.hrbio {
+    margin-bottom: 1cm;
+    margin-top: 1cm;
+}
+#aboutme {
+    color: rgb(37, 92, 174);
+    font-family: monospace;
+    text-align: center;
+}
+#aboutme p a {
+    text-decoration: none;
+    color: rgb(30, 30, 228);
+    text-shadow: 0 1px 1px rgb(172, 195, 231);
+    font-size: large;
+    padding-left: 1cm;
+}
+#balik1 {
+    text-align: center;
+    margin-bottom: 0.5cm;
+}
+.balik1lagi {
+    text-decoration: none;
+}
+
+
