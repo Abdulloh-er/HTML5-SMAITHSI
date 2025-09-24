@@ -3,11 +3,11 @@ body {
     margin: 0cm;
     background-color: #f2f8f8;
 }
-
-div img {
-    width: 80px;
-    margin-top: 25px;
-    margin-left: 15.5cm;
+#logohsi {
+    margin: auto;
+    width: 60%;
+    text-align: center;
+    padding-top: 25px;
 }
 div h1 {
     color: rgb(37, 92, 174);
@@ -63,15 +63,17 @@ hr {
     padding-left: 0.5cm;
     color: rgb(37, 92, 174);
 }
+
 .deskrip {
     margin-left: 25px;
-    padding-bottom: 25px;
+    padding-bottom: 25px;   
 }
 .gambar {
     width: 250px;
     margin-left: 25px ;
     margin-bottom:  0.5cm; 
 }
+
 .bravepibk {
     color: #bf4cb3;
 }
