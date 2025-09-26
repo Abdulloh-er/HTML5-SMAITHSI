@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM</title>
+    <style>
+        body {
+            background-color: #f9f2f2;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+        .topper {
+            text-align: center;
+        }
+        h1 {
+            text-align: center;
+        }
+        .box {
+            background-color: #fff;
+            box-shadow: 0 3px 6px #d5d3d3;
+            text-align: left;
+            width: 40%;
+            margin: auto;
+            border-radius: 15px;
+        }
+        .boxlabelnama {
+            padding: 1rem;
+            margin: 1rem;
+            font-family: sans-serif;
+        }
+        .boxlabelumur {
+            padding: 1rem;
+            margin: 1rem;
+            font-family: sans-serif;
+        }
+        .boxlabelbiodata {
+            padding: 1rem;
+            margin: 1rem;
+            font-family: sans-serif;
+        }
+         .boxlabelkelas {
+            padding: 1rem;
+            margin: 1rem;
+            font-family: sans-serif;
+        }
+        .boxlabelbiodata textarea {
+            width: 100%;
+        }
+        .grid {
+            margin-top: 1rem;
+            margin-bottom: 1rem;
+            text-align: center;
+        }
+        .grid button {
+            font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            margin: 5px;
+            border-radius: 5px;
+            font-size: larger;
+            border-style: none;
+        }
+        .gender {
+            background-color: #fff;
+            box-shadow: 0 3px 6px #d5d3d3;
+            text-align: left;
+            width: 60%;
+            margin: auto;
+            border-radius: 15px;
+        }
+        .rowsgender h3 {
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+        .rowsgender {
+            padding: 1rem;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>
+        LATIHAN FORM DASAR <br>꧁ঔৣ☬A҉B҉D҉U҉L҉L҉O҉H҉ঔৣ꧂
+    </h1>
+    <hr width="50%" >
+    <section class="box">
+        <form>
+
+            <div class="topper">
+                <h3>
+                ⎛⎝ ≽ > ⩊ < ≼ ⎠⎞
+            </h3>
+            </div>
+            <hr style="margin: 1rem;">
+
+            <div class="boxlabelkelas">
+                <label for="inkelas">KELAS MANA?</label>
+                <select name="asal_kelas" id="inkelas">
+                    <option value="KLS-A">kelas A</option>
+                    <option value="KLS-B">kelas B</option>
+                    <option value="KLS-C">kelas C</option>
+                </select>
+            </div>
+
+            <div class="boxlabelnama">
+                <label for="innama">MASUKAN NAMA</label> <br> <br>
+                <input type="text" name="nama" id="innama" />
+                
+            </div>
+
+            <div class="boxlabelumur">
+                <label for="inumur">MASUKAN UMUR</label> <br> <br>
+                <input type="number" name="umur" id="inumur">
+            </div>
+            
+            <div class="boxlabelbiodata">
+                <label for="inpesan">APA PESAN ANDA</label> <br> <br>
+                <textarea name="pesan" id="inpesan"></textarea>
+            </div>
+
+            <div class="gender">
+
+                <div class="rowsgender">
+                    <h3>
+                    PILIH JENIS KELAMIN
+                </h3>
+
+                <label for="inlamin1">LAKI - LAKI</label>
+                <input type="radio" name="kelamin" id="inlamin1">
+                <label for="inlamin2">PEREMPUAN</label>
+                <input type="radio" name="kelamin" id="inlamin2">
+                </div>
+
+            </div>
+
+            <hr style="margin: 1rem;">
+
+            <div class="grid">
+                <button type="reset"><b>Ulangi</b></button>
+                <button type="submit"><b>Kirim</b></button>
+            </div>
+        </form>
+    </section>
+</body>
+</html>
