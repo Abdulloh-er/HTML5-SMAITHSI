@@ -215,6 +215,14 @@ table {
     border-radius: 1rem;
     padding: 1rem;
 }
+.ukuran-pesan {
+    width: 100%;
+    height: 5rem;
+}
+#submit-x {
+    text-align: center;
+    padding: 10px;
+}
 
 
 
