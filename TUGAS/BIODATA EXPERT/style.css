@@ -24,7 +24,7 @@ hr {
 
 /* BAG-SELECTION */
 #selection li:hover{
-    color: #fff;
+    color: #ffffff;
 }
 #selection {
     font-family: sans-serif;
@@ -41,11 +41,11 @@ hr {
 }
 
 /* TAB-AKTIF */
-.brendaa {
+.active {
     background-color: rgb(32, 68, 152);
     border-radius: 2rem;
 }
-.brendaa b {
+.active b {
     color: #fff;
 }
 
@@ -53,13 +53,6 @@ hr {
 
 
 /* BIODATA */
-.brendaa2 {
-    background-color: rgb(32, 68, 152);
-    border-radius: 2rem;
-}
-.brendaa2 b {
-    color: #fff;
-}
 #hobi-bio {
     font-family:sans-serif;
     background-color: white;
@@ -104,14 +97,6 @@ hr {
 
 
 /* JADWAL */
-.brendaa3 {
-    background-color: rgb(32, 68, 152);
-    border-radius: 2rem;
-}
-.brendaa3 b {
-    color: #fff;
-}
-
 .table-jadwal {
     font-family: sans-serif;
 }
@@ -150,13 +135,6 @@ table {
 
 
 /* GALERI */
-.brendaa4 {
-    background-color: rgb(32, 68, 152);
-    border-radius: 2rem;
-}
-.brendaa4 b {
-    color: #fff;
-}
 #image-img img {
     background-color: #000;
 }
@@ -201,13 +179,6 @@ table {
 
 
 /* TANGGAPAN */
-.brendaa5 {
-    background-color: rgb(32, 68, 152);
-    border-radius: 2rem;
-}
-.brendaa5 b {
-    color: #fff;
-}
 .formulir-feedback {
     font-family:sans-serif;
     background-color: white;
