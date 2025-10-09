@@ -1,0 +1,57 @@
+body {
+    background-color: rgb(221, 248, 239);
+}
+
+
+.container h1 {
+    margin: auto;
+    width: 40%;
+    padding: 1rem;
+    color: palevioletred;
+    border-bottom: 3px solid rgb(250, 192, 135);
+    font-family: "Audiowide", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.paragraph {
+    margin: auto;
+    background-color: antiquewhite;
+    box-shadow: 0 3px 5px lightseagreen;
+    border-radius: 12px;
+    width: 30%;
+}
+.paragraph p {
+    padding: 1rem;
+    margin-top: 1rem;
+    text-transform: uppercase;
+    font-family: fantasy;
+    text-align: center;
+    line-height: 2;
+    letter-spacing: 1px;
+}
+.paragraph h5 {
+    font-family: "dafont";
+    padding: 2rem;
+    margin-top: 1rem;
+    text-align: center;
+    line-height: 2;
+    letter-spacing: 1px;
+    color: hotpink;
+}
+
+
+@font-face {
+    font-family: "dafont";
+    src: url(Super\ Squad.ttf) format("truetype");
+}
+
+span {
+    color: rgb(144, 221, 238);
+    font-family: "Rubik Microbe", system-ui;
+    color: darkgoldenrod;
+}
+
