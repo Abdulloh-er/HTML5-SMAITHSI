@@ -1,0 +1,91 @@
+body {
+    margin:0px;
+}
+span {
+    color: lightseagreen;
+}
+.red {
+    color: red;
+    font-weight: bold;
+}
+header {
+    background-color: rgb(205, 229, 244);
+    width: 90%;
+    padding: 1rem;
+    margin: auto;
+    margin-top: 1rem;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+}
+header h1 {
+    font-size: 250%;
+    color: rgb(67, 67, 250);
+    font-family: "Nosifer", sans-serif;
+    text-align: center;
+}
+deskripsi p {
+    text-align: center;
+    font-size: smaller;
+    font-style: italic;
+    color: lightslategrey;
+}
+
+
+article {
+    margin: auto;
+    padding: 1rem;
+    background-color: #fff;
+    width: 65%;
+    border-radius: 10px;
+    box-shadow: 0 3px 7px lightslategrey;
+}
+article h3 {
+    font-family: "Dafont";
+    letter-spacing: 2px;
+    color: darksalmon;
+}
+article p {
+    font-family: sans-serif;
+}
+
+/* QUOTES */
+blockquote {
+    font-family: sans-serif;
+    border-left: 5px solid blue;
+    margin: 2rem;
+    background-color: #0037ff5b;
+    padding: 1rem;
+}
+.notes {
+    color: rgb(137, 4, 4);
+    font-family: sans-serif;
+    border-left: 5px solid rgb(255, 0, 0);
+    margin: 2rem;
+    background-color: #dc3b2253;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+footer {
+    text-align: right;
+    line-height: 50px;
+    /* background-color: #55545430; */
+    padding: 2rem;
+    margin-bottom: 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.author {
+    font-family: "bismillah";
+    color: palevioletred;
+    font-size: xx-large;
+}
+
+/* FONT BISMILLAH */
+@font-face {
+    font-family: "bismillah";
+    src: url(font/Bismillah\ Script.ttf);
+}
+@font-face {
+    font-family: "Dafont";
+    src: url(font/Super\ Squad.ttf);
+}
