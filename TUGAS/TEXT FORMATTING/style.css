@@ -42,7 +42,9 @@ article {
 article h3 {
     font-family: "Dafont";
     letter-spacing: 2px;
+    word-spacing: 4px;
     color: darksalmon;
+    text-decoration: underline;
 }
 article p {
     font-family: sans-serif;
@@ -55,6 +57,7 @@ blockquote {
     margin: 2rem;
     background-color: #0037ff5b;
     padding: 1rem;
+    text-transform:lowercase;
 }
 .notes {
     color: rgb(137, 4, 4);
@@ -76,7 +79,7 @@ footer {
 }
 .author {
     font-family: "bismillah";
-    color: palevioletred;
+    color: rgb(239, 60, 120);
     font-size: xx-large;
 }
 
