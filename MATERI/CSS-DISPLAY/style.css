@@ -1,0 +1,71 @@
+.card {
+  background: #f9f9f9;
+  text-align: center;
+  place-content: center;
+  place-items: center;
+  height: 250px;
+  width: 250px;
+  border: 2px dashed #333;
+  border-radius: 6px;
+}
+.area {
+  width: 100px;
+  height: 100px;
+  place-content: center;
+  background-color: lightcoral;
+  display: block;
+  margin: 2px;
+}
+
+.area h3,
+.area p {
+  margin: 0 auto;
+}
+.area p {
+  font-size: 14px;
+  color: #666;
+}
+
+/* DISPLAY */
+.area-ib {
+  background-color: lightgreen;
+  display: inline-block;
+}
+
+.area-in {
+  background-color: lightpink;
+}
+.area-in p {
+  display: inline;
+  background-color: lightpink;
+  margin: 3px;
+}
+
+.area-none {
+  display: none;
+}
+.card:hover .area-none {
+  display: block;
+}
+
+
+
+/* FLEX */
+.card-box {
+  background: #f9f9f9;
+  text-align: center;
+  place-content: center;
+  place-items: center;
+  height: 250px;
+  width: 250px;
+  border: 2px dashed #333;
+  border-radius: 6px;
+}
+
+.flexbox-area {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: space-between;
+}
+

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS3: Display & Flexbox</title>
+    <!-- pico css -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css"
+    />
+    <!-- style css -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- beri space di kiri-kanan halaman -->
+    <div class="container">
+      <h1>CSS3: Display & Flexbox</h1>
+      <hr />
+      <h2>Bagian 1: Display</h2>
+      <!-- grid area -->
+      <div class="grid">
+        <!-- card box a -->
+        <div class="card">
+          <code>
+            display block
+          </code>
+          <div class="area" id="box-xxxx">
+            <h3>Box X</h3>
+            <p>(Konten X)</p>
+          </div>
+          <div class="area" id="box-xxxx">
+            <h3>Box X</h3>
+            <p>(Konten X)</p>
+          </div>
+        </div>
+        <!-- end -->
+
+         <!-- card box inline blox -->
+        <div class="card">
+          <code>
+            display inline block
+          </code>
+          <div class="area-ib" id="box-xxxx">
+            <h3>Box X</h3>
+            <p>(Konten X)</p>
+          </div>
+          <div class="area-ib" id="box-xxxx">
+            <h3>Box X</h3>
+            <p>(Konten X)</p>
+          </div>
+        </div>
+        <!-- end -->
+
+        <!-- card box inline blox -->
+        <div class="card">
+          <code>
+            display inline 
+          </code>
+          <div class="area-in" id="box-xxxx">
+            <p>E1</p>
+            <p>E2</p>
+            <p>E3</p>
+          </div>
+        </div>
+        <!-- end -->
+
+        <!-- card box inline blox -->
+        <div class="card">
+          <code>
+            display inline 
+          </code>
+          <div class="area-none" id="box-xxxx">
+            <img src="https://d1vbn70lmn1nqe.cloudfront.net/prod/wp-content/uploads/2023/07/17051018/resep-batagor-khas-bandung-untuk-camilan-sore.jpg" width="200px" height="200px" alt="">
+          </div>
+        </div>
+        <!-- end -->
+
+      </div>
+
+      <hr>
+
+      <h2>
+        BAG 2 : FLEXBOX
+      </h2>
+      <div class="flexbox-area">
+        <div class="card-box">
+          <p>
+            ANIME
+          </p>
+        </div>
+        <div class="card-box">
+          <p>
+            GAME
+          </p>
+        </div>
+        <div class="card-box">
+          <p>
+            FILM
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
