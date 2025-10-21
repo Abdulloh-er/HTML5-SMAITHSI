@@ -1,0 +1,241 @@
+header {
+    font-family: sans-serif;
+    margin: 2rem;
+}
+
+/* MAIN */
+main {
+    margin: 2rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.bag-1 {
+    background-color: #fff;
+    box-shadow: 0 3px 7px #909090;
+    padding: 1rem;
+    border-radius: 10px;
+}
+.bag-1 h3 {
+    border-bottom: 1px solid grey;
+    padding: 5px;
+}
+.deskripsi {
+    position: relative;
+    background-color: #20b2ab7e;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1.5px solid #20b2ab7e;
+}
+.deskripsi p {
+    margin: 5px;
+}
+.tombolx{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+
+    background-color: transparent;
+    padding: 5px;
+    border-radius: 4px;
+    border: none;
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+
+    scale: 1;
+    transition: scale 1s cubic-bezier(0.19, 1, 0.22, 1);
+}
+.tombolx:hover {
+    scale: 1.2;
+    transition: scale 1s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+
+
+/* BAG 2 */
+.bag-2 {
+    margin-top: 2rem;
+    background-color: #fff;
+    box-shadow: 0 3px 7px #909090;
+    padding: 1rem;
+    border-radius: 10px;
+}
+.bag-2 h3 {
+    border-bottom: 1px solid grey;
+    padding: 5px;
+}
+
+/* AVATAR */
+picture {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+
+    margin: auto;
+    width: 20%;
+    border-radius: 7px;
+    background-color: #ffffff;
+    box-shadow: 0 3px 6px #909090;
+    padding: 1rem;
+
+    position: relative;
+}
+.badge {
+    color: rgb(255, 255, 255);
+    background-color: lightgreen;
+    box-shadow: 0 2px 8px rgba(0,0,0,.1);
+    padding: 3px;
+    border-radius: 5px;
+    font-size: larger;
+
+    position: absolute;
+    top: 35px;
+    right: 25%;
+}
+
+
+picture{
+    scale: 1;
+    transition: scale 1s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+picture:hover {
+    scale: 1.05;
+    transition: scale 1s cubic-bezier(0.23, 1, 0.320, 1);
+}
+
+
+picture h4 {
+    margin-bottom: 0px;
+}
+picture p {
+    margin-top: 0px;
+    font-weight: bold;
+    color: grey;
+}
+
+/* BAG 3 */
+.bag-3 {
+    margin-top: 2rem;
+    background-color: #fff;
+    box-shadow: 0 3px 7px #909090;
+    padding: 1rem;
+    border-radius: 10px;
+}
+.bag-3 h3 {
+    border-bottom: 1px solid grey;
+    padding: 5px;
+}
+
+
+/* 3 CARD */
+.pilihan {
+    display: flex;
+    gap: 20px; 
+    justify-content: center;
+}
+.picture1 {
+    text-align: center;
+
+    background-color: #fff;
+    box-shadow: 0 3px 7px #909090;
+    padding: 1rem;
+    border-radius: 10px;
+    width: 250px;
+
+    border: 1.5px solid lightgreen;
+
+    scale: 1;
+    transition: scale 1s cubic-bezier(0.19, 1, 0.22, 1);
+}
+.picture1:hover {
+    scale: 1.02;
+    transition: scale 1s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+
+.picture2 {
+    text-align: center;
+
+    background-color: #fff;
+    box-shadow: 0 3px 7px #909090;
+    padding: 1rem;
+    border-radius: 10px;
+    width: 250px;
+
+    border: 1.5px solid lightskyblue;
+
+    scale: 1.;
+    transition: scale 1s cubic-bezier(0.19, 1, 0.22, 1);
+}
+.picture2:hover {
+    scale: 1.02;
+    transition: scale 1s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+
+.picture3 {
+    text-align: center;
+
+    background-color: #fff;
+    box-shadow: 0 3px 7px #909090;
+    padding: 1rem;
+    border-radius: 10px;
+    width: 250px;
+
+    border: 1.5px solid lightcoral;
+
+     scale: 1.;
+    transition: scale 1s cubic-bezier(0.19, 1, 0.22, 1);
+}
+.picture3:hover {
+    scale: 1.02;
+    transition: scale 1s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+
+.harga1 {
+    font-size: xx-large;
+    font-weight: bold;
+    color: lightgreen
+}
+.harga2 {
+    font-size: xx-large;
+    font-weight: bold;
+    color: lightskyblue;
+}
+.harga3 {
+    font-size: xx-large;
+    font-weight: bold;
+    color: lightcoral;
+}
+
+
+/* DES */
+.des p {
+    border-bottom: 1px solid gray;
+    padding: 5px;
+}
+
+/* CARD BELI */
+.card-beli{
+    position: relative;
+    bottom: 7px;
+    left: 1%;
+
+    background-color: rgba(255, 0, 93, 0.784);
+    padding: 5px;
+    border-radius: 4px;
+    border: none;
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+
+    scale: 1;
+    transition: scale 1s cubic-bezier(0.19, 1, 0.22, 1);
+
+}
+.card-beli:hover {
+    border-radius: 3px;
+    scale: 1.1;
+    transition: scale 1s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+
+
