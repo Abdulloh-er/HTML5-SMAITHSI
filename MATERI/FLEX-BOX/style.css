@@ -1,0 +1,42 @@
+.card {
+  background: #f9f9f9;
+  text-align: center;
+  place-content:center;
+  place-items: center;
+  height: 200px;
+  width: 200px;
+  border: 2px solid #eee;
+  border-radius: 6px;
+}
+.card-pro {
+  background: #f9f9f9;
+  text-align: center;
+  place-content:center;
+  place-items: center;
+  height: 230px;
+  width: 230px;
+  border: 2px solid blue;
+  border-radius: 6px;
+}
+.pricing-area {
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+  justify-content: center;
+  align-items: center;
+}
+.alert {
+  display: flex;
+  background-color: rgba(135, 206, 250, 0.497);
+  border: 2px solid rgb(88, 184, 245);
+  justify-content: space-between;
+  padding: 10px;
+  border-radius: 5px;
+  align-items: center;
+  margin: 0px;
+}
+.alert button {
+  font-size: 10px;
+  background-color: transparent;
+  border: none;
+}
