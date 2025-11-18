@@ -1,0 +1,132 @@
+/* ===== Layout Dasar ===== */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: system-ui, Arial, sans-serif;
+  background: #f5f7fa;
+  color: #222;
+  line-height: 1.6;
+}
+.site-header {
+  background: #e8effb;
+  text-align: center;
+  padding: 2rem 1rem;
+}
+.site-header h1 {
+  margin-bottom: 0.5rem;
+}
+.site-header p {
+  color: #555;
+}
+
+/* Kontainer */
+.container {
+  max-width: 1000px;
+  margin: 2rem auto;
+  padding: 1rem;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.containers {
+  display: flex;
+  
+}
+
+.site-footer {
+  text-align: center;
+  padding: 2rem;
+  color: #666;
+}
+
+
+.main-nav ul {
+  margin-top: 25px;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  align-items: center;
+}
+.main-nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  background-color: lightpink;
+  padding: 5px 15px;
+  border-radius: 20px;
+
+  transition: background-color 1s ease-in-out;
+
+}
+.main-nav a:hover {
+  background-color: lightsalmon;
+  transition: background-color 1s ease-in-out;
+}
+
+.main-nav li {
+  scale: 1;
+  transition: scale 1s cubic-bezier(0.19, 1, 0.22, 1);
+}
+.main-nav li:hover {
+  scale: 1.1;
+  transition: scale 1s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+
+/* ukuran 1024px => desktop++ */
+@media screen and (min-width: 1024px) {
+  /* masukkan tag / target selector */
+  .site-header {
+    background-color: rgba(240, 128, 128, 0.79);
+    color: #f5f7fa;
+  }
+  .site-header p {
+    color: white;
+  }
+}
+
+/* ukuran 768-1023px => tablet */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  /* masukkan tag / target selector */
+  .site-header {
+    background-color: rgba(240, 128, 128, 0.79);
+    color: #f5f7fa;
+  }
+  .site-header p {
+    color: white;
+  }
+
+  .main-nav ul li {
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: calc(33%);
+  }
+}
+
+/* ukuran max 767px => smartphone */
+@media screen and (max-width: 767px) {
+  /* masukkan tag / target selector */
+  .site-header {
+    background-color: rgba(240, 128, 128, 0.79);
+    color: #f5f7fa;
+  }
+  .site-header h1 {
+    font-size: 24px;
+  }
+  .site-header p {
+    color: white;
+    font-size: x-small;
+  }
+
+  .main-nav ul {
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 100%;
+    flex-wrap: wrap;
+  }
+}

@@ -1,0 +1,26 @@
+* {
+    padding: 12px;
+}
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 25px;
+    padding: 25px;
+    border-radius: 12px;
+    color: var(--bs-info-border-subtle);
+}
+.container-lg {
+    border: 1px solid rgb(155, 126, 126);
+    border-style: dashed;
+    border-radius: 12px;
+}
+.container-fluid {
+    padding: 12px;
+}
+.container-md {
+    border: 1px solid gray;
+    border-style: dashed;
+    border-radius: 12px;
+    margin: 12px;
+}

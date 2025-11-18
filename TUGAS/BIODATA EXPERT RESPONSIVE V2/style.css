@@ -1,0 +1,452 @@
+body {
+    background-color: #d8e5e5;
+    margin-bottom: 0pc;
+}
+
+/* INDEX */
+.topper {
+    text-align: center;
+    width: 65%;
+    margin: auto;
+}
+.topper h1 {
+    color: rgb(31, 50, 129);
+}
+.topper p {
+    color: rgb(31, 50, 129);
+}
+hr {
+    margin-left: 8%;
+    margin-right: 8%;
+}
+
+
+/* BAG-1 */
+.bag-1 {
+    font-family:sans-serif;
+    background-color: white;
+    box-shadow: 0 3px 5px #bdbbbb;
+    width: 60%;
+    margin: auto;
+    border-radius: 1rem;
+    padding: 7px;
+    margin-bottom: 1rem;
+}
+.bag-1 a {
+    text-decoration: none;
+    color: #000;
+}
+.bag-1 ul {
+   list-style-type: circle;
+}
+.bag-1 li {
+    margin: 10px;
+}
+.bag-1 p {
+    padding-left: 25px;
+    padding-bottom: 25px;
+}
+
+.bag-1 img {
+    padding-left: 25px;
+    padding-bottom: 25px;
+}
+.bag-1 h3 {
+    color: rgb(31, 50, 129);
+}
+
+
+/* BAG-SELECTION */
+#selection li:hover{
+    color: #ffffff;
+}
+#selection {
+    font-family: sans-serif;
+}
+#selection ul{
+    list-style: none;
+    text-align: center;
+}
+#selection a {
+    text-decoration: none;
+    color: #000;
+    display: inline-block;
+    padding: 1rem;
+}
+
+/* TAB-AKTIF */
+.active {
+    background-color: rgb(32, 68, 152);
+    border-radius: 2rem;
+}
+.active b {
+    color: #fff;
+}
+
+
+
+
+/* BIODATA */
+
+.footer-bio {
+    font-family:sans-serif;
+    background-color: white;
+    margin: auto;
+    padding-bottom: 25px;
+}
+.footer-bio h2 {
+    padding: 25px;
+}
+.footer-bio a {
+    margin: 25px ;
+}
+.footer-bio a {
+    text-decoration: none;
+    color: #000;
+}
+.footer-bio a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
+/* JADWAL */
+.table-jadwal {
+    font-family: sans-serif;
+}
+table {
+    background-color: aliceblue;
+    width: 100%;
+}
+#tableatas {
+    border-collapse: collapse;
+}
+#tableatas td {
+    padding: 15px;
+}
+
+#tableatas th {
+    padding: 15px;
+}
+#tableatas .bg {
+    background-color: rgb(24, 50, 164);
+    color: aliceblue;
+}
+.table-jadwal {
+    font-family:sans-serif;
+    background-color: white;
+    box-shadow: 0 3px 5px #bdbbbb;
+    width: 60%;
+    border-radius: 1rem;
+    margin: auto;
+    margin-bottom: 1rem;
+    padding: 1rem;
+}
+
+
+
+
+
+
+/* GALERI */
+#image-img img {
+    background-color: #000;
+}
+#image-img {
+    font-family: sans-serif;
+    background-color: #fff;
+    box-shadow: 0 3px 7px #bdbbbb;
+    width: 70%;
+    margin: auto;
+    border-radius: 25px;
+    padding: 1rem;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+#image-img li{
+    max-width: 200px;
+    max-height: 200px;
+    background-color: #ffffff;
+    box-shadow: 0 3px 7px #bdbbbb;
+    padding-bottom: 25px;
+    border-radius: 10px;
+    display: inline-block;
+}
+.tag-2 {
+    text-align: left;
+    color: rgb(31, 50, 129);
+}
+.vid {
+    font-family:sans-serif;
+    background-color: white;
+    box-shadow: 0 3px 5px #bdbbbb;
+    width: 70%;
+    padding: 1rem;
+    margin: auto;
+    border-radius: 1rem;
+
+    position: relative;
+}
+.vid iframe {
+    width: 100%;
+}
+
+
+
+
+
+
+/* FEEDBACK */
+.formulir-feedback {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background: #ffffff;
+    color: #333;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    margin: auto;
+    border-radius: 1rem;
+    padding: 1.5rem;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.formulir-feedback:hover {
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+.formulir-feedback label {
+    font-weight: 600;
+    color: #0078ff;
+}
+.formulir-feedback input, .formulir-feedback select, .formulir-feedback textarea {
+    width: 95%;
+    margin-top: 6px;
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1.5px solid #ccc;
+    border-radius: 6px;
+    background: #f9f9f9;
+    color: #333;
+    outline: none;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+.formulir-feedback input:focus,
+.formulir-feedback select:focus,
+.formulir-feedback textarea:focus {
+    border-color: #0078ff;
+    box-shadow: 0 0 6px rgba(0, 120, 255, 0.4);
+}
+.ukuran-pesan {
+    width: 100%;
+    height: 6rem;
+    resize: none;
+}
+#submit-x {
+    text-align: center;
+    padding: 10px;
+}
+#submit-x button {
+    background: linear-gradient(90deg, #0078ff, #00bfff);
+    border: none;
+    color: #fff;
+    font-weight: 600;
+    padding: 10px 25px;
+    border-radius: 8px;
+    margin: 0 8px;
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.3s ease;
+}
+#submit-x button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 10px rgba(0, 120, 255, 0.3);
+}
+
+
+
+
+
+
+
+
+
+/* TAG */
+.tag {
+    color: rgb(120, 108, 26);
+    font-size: xx-large;
+    padding-left: 10px;
+}
+
+
+
+
+
+
+/* RESPONSIVE */
+/* ukuran 1024px => desktop++ */
+@media (min-width: 1024px) {
+  /* masukkan tag / target selector */
+      /* HEADER */
+.topper {
+    width: 100%;
+}
+.topper h1 {
+    font-size: 25px;
+}
+.topper p {
+    font-size: small;
+}
+
+/* FEEDBACK */
+.formulir-feedback {
+    width: 80%;
+}
+
+/* GALERY */
+.vid iframe {
+    width: 100%;
+}
+}
+
+
+
+/* ukuran 768-1023px => tablet */
+ @media (min-width: 600px) and (max-width: 1023px) {
+  /* masukkan tag / target selector */
+  .bag-1 {
+    width: 95%;
+  }
+  .bag-1 p {
+    font-size: large;
+  }
+
+    /* HEADER */
+.topper {
+    width: 100%;
+}
+.topper h1 {
+    font-size: 20px;
+}
+.topper p {
+    font-size: small;
+}
+
+
+  /* JADWAL */
+.table-jadwal h3 {
+    font-size: medium;
+}
+.table-jadwal {
+    width: 100%;
+    scale: 0.9;
+    margin-left: -15px;
+}
+table {
+    background-color: aliceblue;
+    width: 100%;
+}
+#tableatas td {
+    padding: 7px;
+}
+
+#tableatas th {
+    padding: 7px;
+}
+
+/* FEEDBACK */
+.formulir-feedback {
+    width: 80%;
+}
+
+/* GALERY */
+.vid iframe {
+    width: 100%;
+}
+}
+
+
+
+/* ukuran max 767px => smartphone */
+@media screen and (max-width: 600px) {
+  /* masukkan tag / target selector */
+
+  /* HEADER */
+.topper {
+    width: 100%;
+}
+.topper h1 {
+    font-size: 20px;
+}
+.topper p {
+    font-size: small;
+}
+
+
+/* NAVIGATION  */
+#selection ul{
+    margin-right: 35px;
+     display: flex;
+     flex-direction: column;
+     flex-wrap: wrap;
+     justify-content: center;
+}
+
+
+/* BAGIAN 1 */
+.bag-1 {
+    width: 95%;
+}
+.bag-1 p {
+    font-size: small;
+}
+.bag-1 h3 {
+    font-size: medium;
+}
+.tag {
+    font-size: x-large;
+}
+
+
+/* BIODATA */
+.bag-1 b {
+    font-weight: 300px;
+}
+
+
+/* JADWAL */
+.table-jadwal h3 {
+    font-size: medium;
+}
+.table-jadwal {
+    width: 100%;
+    scale: 0.9;
+    margin-left: -15px;
+}
+table {
+    background-color: aliceblue;
+    width: 100%;
+}
+#tableatas td {
+    padding: 7px;
+}
+
+#tableatas th {
+    padding: 7px;
+}
+
+/* FEEDBACK */
+.formulir-feedback {
+    width: 80%;
+}
+
+/* GALERY */
+.image-img {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+.vid iframe {
+    width: 100%;
+}
+
+}

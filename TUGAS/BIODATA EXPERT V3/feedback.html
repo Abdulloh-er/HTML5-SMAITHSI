@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="https://smaithsi.sch.id/important/logo.png" alt="Logo" width="50px" class="d-inline-block align-text-top" />
+        </a>
+        <a class="navbar-brand" href="#"><h3 class="text-primary">SMAIT HSI BOARDING</h3></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="bio.html">Biodata</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="jadwal.html">Jadwal</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="galery.html">Galery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="feedback.html">Tanggapan balik</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+      <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 100%"></div>
+    </div>
+
+    <div class="container m-5">
+      <div class="card m-auto p-3" style="width: 60%">
+        <div class="container">
+          <div class="spinner-grow text-success" role="status">
+            <span class="visually-hidden">Loading...</span>
+          </div>
+          <div class="spinner-grow text-danger" role="status">
+            <span class="visually-hidden">Loading...</span>
+          </div>
+          <div class="spinner-grow text-warning" role="status">
+            <span class="visually-hidden">Loading...</span>
+          </div>
+        </div>
+
+        <h5 class="card-title text-primary">FEEDBACK</h5>
+        <h6 class="card-subtitle mb-2 text-body-secondary text-secondary">Masukin apa aja yang ada di kepala kaliann!!</h6>
+        <div class="card-body text-center">
+          <div class="card-body m-auto" style="width: 100%">
+            <div class="container-xl p-5 m-auto">
+              <div class="input-group mb-4">
+                <span class="input-group-text">Nama depan dan belakang</span>
+                <input type="text" aria-label="First name" class="form-control" />
+                <input type="text" aria-label="Last name" class="form-control" />
+              </div>
+
+              <div class="input-group mb-4">
+                <span class="input-group-text" id="visible-addon">@</span>
+                <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="visible-addon" />
+                <input type="text" class="form-control d-none" placeholder="Hidden input" aria-label="Hidden input" aria-describedby="visible-addon" />
+              </div>
+
+              <div class="input-group mb-4">
+                <input type="text" class="form-control" placeholder="Rekomendasikan web ini?" aria-label="Recipient’s username with two button addons" />
+                <button class="btn btn-outline-secondary" type="button">YA</button>
+                <button class="btn btn-outline-secondary" type="button">TIDAK</button>
+                <button class="btn btn-outline-secondary" type="button">MUNGKIN</button>
+              </div>
+
+              <select class="form-select mb-4" aria-label="Default select example">
+                <option selected>Halaman yang paling menarik?</option>
+                <option value="1">Biodata</option>
+                <option value="2">Jadwal</option>
+                <option value="3">Galery</option>
+              </select>
+
+              <div class="input-group mb-3">
+                <span class="input-group-text">Tanggapan bebas</span>
+                <textarea class="form-control" aria-label="With textarea"></textarea>
+              </div>
+            </div>
+          </div>
+          <button type="button" class="btn btn-secondary">KIRIM</button>
+          <button type="button" class="btn btn-secondary">BATAL</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
